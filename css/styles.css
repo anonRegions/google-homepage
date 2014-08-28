@@ -1,0 +1,12 @@
+﻿body {
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+#navbar
+{
+	height: 15px;
+	display: inline;
+	text-align: right;	/* This is wrong. Fix it tonight. */
+}
+
