@@ -1,54 +1,135 @@
-﻿#wrapper {
+/* ================================================= 
+ *          GENERAL            
+ * ================================================= */
+
+
+#wrapper {
   max-width: 940px;
   margin: 0 auto;
-  padding: 0 5%;
 }
 
 a {
+  font-family: arial, sans-serif;
+  font-size: 13px/27px;
   text-decoration: none;
 } 
 
+li {
+  font-size: 13px/27px;
+  font-family: arial, sans-serif;
+}
+
 img {
   max-width: 50%;
+  padding-bottom: 40px;
 }
 
 body {
-	font-family: sans-serif;
+	font-family: arial, sans-serif;
 	font-size: 12px;
 }
 
+form {
+  min-width: 572px;
+  max-width: 572px;
+}
+
+fieldset {
+  height: 30px;
+}
+
+#buttons {
+  display: inline-block;
+  margin-top: 35px;
+  height: 40px;
+  width: 245px;
+}
+
+#buttonOne, #buttonTwo {
+  width: 120px;
+  height: 40px;
+}
 
 /* ================================================= 
  * 					NAVIGATION 						
-/* ================================================= */
+ * ================================================= */
 
 
-nav {
+#topNav {
   text-align:right;
   padding: 10px 0;
   margin: 20px 0 0;
 }
 
-nav ul {
+.bottomNav {
+  width: 980px;
+  height: 40px;
+  position: absolute;
+  background-color: #F2F2F2;
+  border-width: 5px;
+  border-color: #fff;
+}
+
+#listBottom {
+  text-align:left;
+  padding: 10px 0;
+  margin: 20px 0 0;
+  display: block;
+}
+
+#topNav ul, #listBottom.footerLeft, #listBottom.footerRight {
   list-style: none;
   margin: 0 10px;
   padding: 0;
 }
 
-nav li {
+#topNav li {
   display: inline-block;
 }
 
-nav a {
+.footerLeft, .footerRight {
+  display: inline-block;
+  margin-left: 30px;
+  white-space: nowrap;
+}
+
+.footerLeft {
+  float: left;
+}
+
+.footerRight {
+  float: right;
+}
+
+#topNav a, #listBottom a {
   font-weight: 800;
-  padding: 15px 10px;
+  padding: 15px;
+}
+
+#googleProducts {
+    width: 30px;
+    height: 30px;
 }
 
 
 /* ================================================= 
- * 					GRAPHICS 						
-/* ================================================= */
+ * 					CONTENT 						
+ * ================================================= */
 
 #mainLogo {
 	padding: 15em 15% 0 22%;
+}
+
+
+/* =================================================
+ *          COLORS
+ * ================================================= */
+
+
+a {
+  color: rgb(34, 34, 34);  
+}
+
+span {
+  color: rgb(34, 34, 34);  
 }

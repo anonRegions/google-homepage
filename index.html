@@ -6,36 +6,47 @@
 </head>
 	<body>
 	<div id="wrapper">
-	<nav>
-		<ul>
-			<li><a href="https://plus.google.com/" id="google plus" title="+You">+You</a></li>
-			<li><a href="https://mail.google.com/mail/" id="gmail" title="Gmail">Gmail</a></li>
-			<li><a href="https://www.google.com/imghp?" id="googleImages" title="Images">Images</a></li>
-			<li><a href="http://www.google.com/intl/en/about/products/" id="google products" title="products"></a></li>
-			<li><a href="https://accounts.google.com/ServiceLogin?" id="signIn" title="Sign In">Sign In</a></li>
-		</ul>
-	</nav>
-	<div id="spacer-top" />
-	<div id="mainLogo">
-		<img src="img\logo11w.png" alt="" />	
-	</div>
-	<div id="searchbox">
-		<form method="post">
-			<input type="text" />
-			<div></div>
-			<button type="submit" value="Google Search"><p>Google Search</p></button>
-			<button type="submit" value="I'm Feeling Lucky"><p>I'm Feeling Lucky</p></button>
-		</form>
-	</div>
-	<div id="spacer-bottom" />
-	<ul>
-		<li><a href="/advertising.html" id="advertising" title="advertising">Advertising</a></li>
-		<li><a href="/business.html" id="business" title="business">Business</a></li>
-		<li><a href="/about.html" id="About" title="about">About</a></li>
-		<li><a href="/privacy.html" id="privacy & terms" title="privacy & terms">Privacy & Terms</a></li>
-		<li><a href="/settings.html" id="settings" title="settings">Settings</a></li>
-	</ul>
-	
+		<div id="topNav">
+			<ul id="listTop">
+				<li><a href="https://plus.google.com/" id="google plus" title="+You">+You</a></li>
+				<li><a href="https://mail.google.com/mail/" id="gmail" title="Gmail">Gmail</a></li>
+				<li><a href="https://www.google.com/imghp?" id="googleImages" title="Images">Images</a></li>
+				<li><a href="http://www.google.com/intl/en/options/" id="googleProducts" title="products"></a></li>
+				<li><a href="https://accounts.google.com/ServiceLogin?" id="signIn" title="Sign In">Sign In</a></li>
+			</ul>
+		</div>
+		<div id="spacer-top" />
+		<div id="mainLogo">
+			<center>
+				<img src="img\logo11w.png" alt="" />
+			</center>
+		</div>
+		<div class="searchbox">
+			<center>
+				<form>
+					<fieldset>
+						<div></div>
+					</fieldset>
+					<div id="buttons">
+						<button type="submit" value="Google Search"><span>Google Search</span></button>
+						<button type="submit" value="I'm Feeling Lucky"><span>I'm Feeling Lucky</span></button>
+					</div>
+				</form>
+			</center>
+		</div>
+		<div class="bottomNav">
+			<div id="listBottom">
+				<div class="footerLeft">
+					<span class="footerItem"><a href="/advertising.html" id="advertising" title="advertising">Advertising</a></span>
+					<span class="footerItem"><a href="/business.html" id="business" title="business">Business</a></span>
+					<span class="footerItem"><a href="/about.html" id="About" title="about">About</a></span>
+				</div>
+				<div class="footerRight">
+					<span class="footerItem"><a href="/privacy.html" id="privacy_terms" title="privacy_terms">Privacy & Terms</a></span>
+					<span class="footerItem"><a href="/settings.html" id="settings" title="settings">Settings</a></span>
+				</div>
+			</div>
+		</div>
 	</div>
 	</body>
 </html>
