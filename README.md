@@ -3,3 +3,5 @@ http://www.theodinproject.com/web-development-101/html-css
 
 Set up basic tags in index.html.
 Started setting up CSS.
+
+9/13/14: Extensive updates to index.html & styles.css.
