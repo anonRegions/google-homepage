@@ -3,7 +3,7 @@
  * ================================================= */
 
 
-#wrapper {
+.wrapper {
   max-width: 100%;
   margin: 0 auto;
 }
@@ -22,6 +22,7 @@ li {
 img {
   height: 95px;
   width: 269px;
+  padding-bottom: 50px;
 }
 
 body {
@@ -35,7 +36,9 @@ form {
 }
 
 fieldset {
-  height: 30px;
+  height: 20px;
+  border-style: inset;
+  border-width: thin;
 }
 
 #searchButtons {
@@ -46,13 +49,17 @@ fieldset {
   padding-right: 15px;
 }
 
+.searchbox {
+    height: 150px;
+}
+
 
 /* ================================================= 
  * 					NAVIGATION 						
  * ================================================= */
 
 
-#topNav {
+.topNav {
   text-align: right;
   padding: 10px 0;
   margin: 20px 0 0;
@@ -72,18 +79,18 @@ fieldset {
   border-color: #fff;
 }
 
-#listBottom {
+.listBottom {
   text-align:left;
   display: block;
 }
 
-#topNav ul, #listBottom.footerLeft, #listBottom.footerRight {
+.topNav ul, .listBottom.footerLeft, .listBottom.footerRight {
   list-style: none;
   margin: 0 10px;
   padding: 0;
 }
 
-#topNav li {
+.topNav li {
   display: inline-block;
 }
 
@@ -102,14 +109,14 @@ fieldset {
   margin-right: 30px;
 }
 
-#topNav a, #listBottom a {
+.topNav a, .listBottom a {
   font-weight: 500;
   padding: 15px;
 }
 
 #googleProducts {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 
@@ -117,10 +124,12 @@ fieldset {
  * 					CONTENT 						
  * ================================================= */
 
-#centerPanel {
+.centerPanel {
   display: block;
   margin: 0 auto;
   min-width: 980px;
+  height: 100px;
+
 }
 
 #imgContainer {
@@ -129,8 +138,8 @@ fieldset {
   display: block;
 }
 
-#mainLogo {
-  margin-top: 231px;
+.mainLogo {
+  margin: 221px 20px 25px 45em;
 }
 
 
@@ -146,13 +155,13 @@ a {
 span {
   color: rgb(34, 34, 34);  
 }
-=======
+
 body {
 	font-family: sans-serif;
 	font-size: 12px;
 }
 
-#navbar
+.navbar
 {
 	height: 15px;
 	display: inline;
